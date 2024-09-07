@@ -1,17 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width" />
-  <title>IC Hello Starter</title>
-  <base href="/" />
-  <link rel="icon" href="/favicon.ico" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Keshav Datta</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section-title {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .list-item {
+            margin-bottom: 10px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .contact-info {
+            text-align: right;
+        }
+    </style>
 </head>
-
 <body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.jsx"></script>
-</body>
+    <div class="container">
+        <header>
+            <h1>Keshav Datta</h1>
+            <p class="contact-info">
+                Email: keshav.datta@example.com<br>
+                Phone: +91 12345-67890<br>
+                LinkedIn: <a href="https://www.linkedin.com/in/keshavdatta" target="_blank">linkedin.com/in/keshavdatta</a>
+            </p>
+        </header>
 
+        <section class="section">
+            <h2 class="section-title">Objective</h2>
+            <p>
+                A highly motivated second-year Computer Science Engineering student with a passion for learning programming languages like C, C++, and Python. Looking to apply my skills in a dynamic environment where I can grow technically and contribute to impactful projects.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Education</h2>
+            <ul>
+                <li class="list-item">
+                    <strong>XYZ University of Technology</strong> — Bachelor of Technology in Computer Science and Engineering<br>
+                    <em>2022 - Present</em>
+                </li>
+                <li class="list-item">
+                    <strong>ABC High School</strong> — Senior Secondary (Class 12th)<br>
+                    <em>2020 - 2022</em>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li class="list-item">Programming Languages: C, C++, Python</li>
+                <li class="list-item">Web Development: HTML, CSS, JavaScript (Basic)</li>
+                <li class="list-item">Version Control: Git, GitHub</li>
+                <li class="list-item">Operating Systems: Windows, Linux</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Projects</h2>
+            <ul>
+                <li class="list-item">
+                    <strong>Email Validation using Python</strong> — Developed a Python script to validate email addresses using regular expressions. Gained experience with Python's `re` module and testing.
+                </li>
+                <li class="list-item">
+                    <strong>Portfolio Website</strong> — Created a personal portfolio website using HTML, CSS, and JavaScript to showcase my projects and skills.
+                </li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Achievements</h2>
+            <ul>
+                <li class="list-item">Secured 90% in the Class 12th Board Exams.</li>
+                <li class="list-item">Completed a certification in Python Programming from XYZ Institute.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Interests</h2>
+            <ul>
+                <li class="list-item">Competitive Programming</li>
+                <li class="list-item">Machine Learning (Beginner)</li>
+                <li class="list-item">Web Development</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p style="text-align: center;">&copy; 2024 Keshav Datta. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
 </html>
